@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy and Model Info"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#0F172A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prototype Model"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#1D4ED8"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MindMate AI is designed for on-device Llama 3.2 style inference. In this prototype, the AI response pipeline is simulated locally to demonstrate the app workflow without needing heavy model deployment."
+            android:textSize="15sp"
+            android:textColor="#0F172A"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Approach"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#1D4ED8"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No data is sent to an external server in this prototype. Notes and AI history are stored locally using SharedPreferences. The future version will use on-device inference to keep academic content private."
+            android:textSize="15sp"
+            android:textColor="#0F172A"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Safety Handling"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#1D4ED8"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The prototype includes basic unsafe keyword filtering and restricts outputs to academic, study, and productivity contexts."
+            android:textSize="15sp"
+            android:textColor="#0F172A"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnBackPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Back to Dashboard"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>

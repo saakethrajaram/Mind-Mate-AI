@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:theme="@style/Theme.MindMateAI"
+        android:label="MindMate AI"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:enableOnBackInvokedCallback="true">
+
+        <activity android:name=".PrivacyActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".PlanActivity" />
+        <activity android:name=".AssistActivity" />
+        <activity android:name=".CaptureActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
