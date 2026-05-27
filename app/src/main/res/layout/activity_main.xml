@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="22dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MindMate AI"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#0F172A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offline-style AI assistant for notes, study support, and planning."
+            android:textSize="16sp"
+            android:textColor="#64748B"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prototype Status: Local simulated GenAI workflow"
+            android:textSize="14sp"
+            android:textColor="#1D4ED8"
+            android:background="#DBEAFE"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Capture Notes"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnAssist"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="AI Assist"
+            android:textAllCaps="false"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:id="@+id/btnPlan"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Generate Plan"
+            android:textAllCaps="false"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:id="@+id/btnHistory"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="View AI History"
+            android:textAllCaps="false"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:id="@+id/btnPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Privacy and Model Info"
+            android:textAllCaps="false"
+            android:layout_marginTop="14dp" />
+
+    </LinearLayout>
+</ScrollView>
